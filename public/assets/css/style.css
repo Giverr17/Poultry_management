@@ -44,7 +44,10 @@ Tags: consulting, finance, corporate, business, consultant, multipurpose, techno
 33. buddy Search Box Css
 34. buddy Loader Css
 =======================*/
-
+body {
+    font-family: Arial, sans-serif !important;
+    font-size: 16px !important;
+}
 /*---=====================================================
    <!--buddy Header Area Css-->
 =========================================================---*/
@@ -319,6 +322,15 @@ small.cart_counter {
 <-- Sater Css Hero Area -->
 ==============================================*/
 section.hero_area {
+    background: url(../images/home_one/banner.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 900px;
+    position: relative;
+    z-index: 1;
+}
+section.register_area {
     background: url(../images/home_one/banner.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -3672,6 +3684,22 @@ h2.subscrib_title:before {
 ============================================*/
 .breadcumb-area {
     background: url(../images/inner-img/breadcrumb_bg.png);
+    background-repeat: no-repeat;
+    height: 440px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.admin-area {
+    background: url(../images/inner-img/subscrib_bg.png);
+    background-repeat: no-repeat;
+    height: 440px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+.report-area {
+    background: url(../images/inner-img/slid_banner3.png);
     background-repeat: no-repeat;
     height: 440px;
     position: relative;

@@ -7,41 +7,41 @@
 	<title>Business buddy Creative HTML5 Template </title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
-	<!-- bootstrap CSS -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all">
-	<!-- carousel CSS -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all">
-	<!-- animate CSS -->
-	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all">
-	<!-- animated-text CSS -->
-	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all">
-	<!-- font-awesome CSS -->
-	<link rel="stylesheet" href="assets/css/all.min.css" type="text/css" media="all">
-	<!-- theme-default CSS -->
-	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all">
-	<!-- meanmenu CSS -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all">
-	<!-- transitions CSS -->
-	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all">
-	<!-- venobox CSS -->
-	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all">
-	<!-- flaticon -->
-	<link rel="stylesheet" href="assets/css/bootstrap-icons.css" type="text/css" media="all">
-	<!-- bootstrap icons -->
-	<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all">
-	<!-- Main Style CSS -->
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all">
-	<!-- responsive CSS -->
-	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all">
-	<!-- Coustom Animation CSS -->
-	<link rel="stylesheet" href="assets/css/coustom-animation.css" type="text/css" media="all">
-	<!-- odometer CSS -->	
-	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" type="text/css" media="all">	
-	<link rel="stylesheet" href="assets/css/scroll-up.css" type="text/css" media="all">	
-	<!-- modernizr js -->
-	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	 <!-- Favicon -->
+	 <link rel="icon" type="image/png" sizes="56x56" href="{{ asset('assets/images/fav-icon/icon.png') }}">
+	 <!-- bootstrap CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css" media="all">
+	 <!-- carousel CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" type="text/css" media="all">
+	 <!-- animate CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}" type="text/css" media="all">
+	 <!-- animated-text CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/animated-text.css') }}" type="text/css" media="all">
+	 <!-- font-awesome CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}" type="text/css" media="all">
+	 <!-- theme-default CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/theme-default.css') }}" type="text/css" media="all">
+	 <!-- meanmenu CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}" type="text/css" media="all">
+	 <!-- transitions CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/owl.transitions.css') }}" type="text/css" media="all">
+	 <!-- venobox CSS -->
+	 <link rel="stylesheet" href="{{ asset('venobox/venobox.css') }}" type="text/css" media="all">
+	 <!-- flaticon -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap-icons.css') }}" type="text/css" media="all">
+	 <!-- bootstrap icons -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}" type="text/css" media="all">
+	 <!-- Main Style CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css" media="all">
+	 <!-- responsive CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" type="text/css" media="all">
+	 <!-- Coustom Animation CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/coustom-animation.css') }}" type="text/css" media="all">
+	 <!-- odometer CSS -->
+	 <link rel="stylesheet" href="{{ asset('assets/css/odometer-theme-default.css') }}" type="text/css" media="all">
+	 <link rel="stylesheet" href="{{ asset('assets/css/scroll-up.css') }}" type="text/css" media="all">
+	 <!-- modernizr js -->
+	 <script src="{{ asset('assets/js/vendor/modernizr-3.5.0.min.js') }}"></script>
 </head>
 
 <body>
@@ -62,7 +62,7 @@
 		<div class="row align-items-center">
 			<div class="col-lg-2">
 				<div class="header-logo">
-					<a href="index.html"><img src="assets/images/home_3/logo2.png" alt="logo"></a>
+					<a href="{{ route('service') }}"><img src="{{ asset("assets/images/home_one/logo2.png") }}" alt="logo"></a>
 				</div>
 			</div>
 			<div class="col-lg-10">

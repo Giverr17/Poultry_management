@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Bird_Register_Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -25,3 +26,11 @@ Route::get('/history', function () {
 Route::get('/team', function () {
     return view('page.team');
 })->name('team');
+Route::get('/admin', function () {
+    return view('admin.admin');
+})->name('admin');
+Route::get('/health-report', function () {
+    return view('admin.health-report');
+})->name('report');
+
+Route::get('register',[Bird_Register_Controller::class,'register'])->name('register');
